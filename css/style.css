@@ -1,0 +1,195 @@
+/* start general */
+
+* {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box; 
+}
+
+body {
+    background-color:#F5F5F5;
+    color:white;
+    font-family:Georgia Regular;
+}
+
+.container {
+    margin-left:25px; 
+    margin-right:25px; 
+}
+
+/* end general */
+
+
+/* start navbar */
+
+nav {
+    background-color:#fff;
+    overflow:hidden;
+    color:#00D2D4 
+}
+
+nav h1{
+    float:left; 
+}
+nav h1 span{
+    color: #F54785;
+}
+
+nav ul {float:right; margin-top:25px;}
+
+nav ul li{
+    list-style:none;
+    display:inline;
+    margin:8px 10px 8px 10px;
+    font-size:21px; 
+}
+
+nav ul li:hover{
+    color: #F54785;
+}
+
+/* end navbar */
+
+
+/* start header */
+
+header {
+    background-image:url(../images/main.jpg); 
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    height:600px;
+    background-color:white;
+    margin-top:5px;
+    color:#fff;
+}
+
+header .slider {
+    background-color:rgba(91,99,101,0.65);
+    width: 300px;
+    position:absolute;
+    margin-top:120px;
+    padding:10px; 
+}
+
+
+
+/* end header */
+
+
+/* start content */
+
+section .departs,
+section .doctors {
+    height:450px;
+    margin-right:-22px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    
+}
+
+section .departs >h1,
+section .doctors >h1{
+
+    color: #2E3D49;
+}
+
+section .departs > div ,
+section .doctors > div {
+    background-color:white;
+    color:#2E3D49; 
+    height:320px;
+    border-radius:5px;
+    width:22%;
+    display:inline-block;
+    margin-right:3%;
+    margin-bottom:25px;
+    padding:10px;
+    box-shadow:5px 3px 5px #C0C0C0;
+    padding-bottom: 50px;
+}
+
+/* end content */
+
+/* start footer */
+
+footer {
+    color:#000; 
+}
+
+footer ul li{
+    list-style:none;
+    display:inline;
+    margin:25px;
+    font-size:21px; 
+    
+}
+
+footer ul{
+    padding-left: 0px;
+}
+
+footer >section{
+    float: left; 
+    background: #999;
+    margin: 1px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+footer .about .container div{
+    margin: 46px 0px;
+}
+
+footer .about .container div h2{
+    font-weight: normal;
+    margin:10px 0;
+}
+
+footer .contact{
+    width: 62%;
+    text-align: center;
+}
+
+footer .about{
+    width: 37.5%;
+}
+
+footer {
+    
+    height: 600px;
+    padding: 50px 0px;
+    background-image: url('../images/bg.jpg');
+    color: white;
+    
+    
+}
+
+.enter{
+    color: white;
+    font-size: 20px;
+}
+
+footer .container form input,
+footer .container form textarea{
+    width: 80%;
+    border: none;
+    margin: 30px 0;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    
+}
+
+footer .about ul li i:hover{
+    color: #00D2D4;
+}
+
+
+
+/* end footer */
+
+    
